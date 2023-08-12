@@ -85,7 +85,7 @@ main {
   gap: 40px;
 }
 .header-studio-portfolio-contact {
-  color: #404bbf;
+  color: var(--primary-black-color);
   position: relative;
   font-size: 16px;
   font-weight: 500;
