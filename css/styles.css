@@ -385,6 +385,9 @@ main {
   position: relative;
   overflow: hidden;
 }
+.background-img:focus {
+  transform: translateY(0);
+}
 .port-card-one:hover .overlay-text,
 .port-card-one:focus .overlay-text {
   transform: translateY(0);
