@@ -293,12 +293,15 @@ main {
 .image {
   display: block;
   text-decoration: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .image:hover {
+  transform: translateY(0);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .image:focus {
+  transform: translateY(0);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -593,9 +596,6 @@ main {
   display: flex;
   align-items: baseline;
 }
-.second-div {
-  margin-right: 120px;
-}
 .social {
   font-weight: 500;
   font-size: 16px;
@@ -630,4 +630,7 @@ main {
 }
 .svg-soc {
   fill: var(--primary-background-color);
+}
+.mom-div {
+  margin-right: 120px;
 }
