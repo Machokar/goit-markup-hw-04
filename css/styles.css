@@ -384,11 +384,7 @@ main {
   position: relative;
   overflow: hidden;
 }
-.port-card-one:hover .overlay-text {
-  transform: translateY(0);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+.port-card-one:hover .overlay-text,
 .port-card-one:focus .overlay-text {
   transform: translateY(0);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
