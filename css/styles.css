@@ -85,7 +85,7 @@ main {
   gap: 40px;
 }
 .header-studio-portfolio-contact {
-  color: #404bbf;
+  color: var(--primary-black-color);
   position: relative;
   font-size: 16px;
   font-weight: 500;
@@ -627,4 +627,7 @@ main {
 .toopor:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.add::after {
+  background-color: #ffffff;
 }
